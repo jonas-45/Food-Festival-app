@@ -14,7 +14,7 @@
   <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="desktopStyle.css">
+  <link rel="stylesheet" href="styleDesktop.css">
 
   <link rel="stylesheet" href="https://use.typekit.net/mfx8jxn.css">
 </head>
@@ -44,13 +44,13 @@
               <a class="nav-link active" aria-current="page" href="about.html">about</a>
             </li>
             <li class="nav-item mx-xl-4">
-              <a class="nav-link" href="#">Program</a>
+              <a class="nav-link" href="#programs">Program</a>
             </li>
             <li class="nav-item mx-xl-4">
-              <a class="nav-link" href="#">Join</a>
+              <a class="nav-link" href="#join">Join</a>
             </li>
             <li class="nav-item mx-xl-4">
-              <a class="nav-link" href="#">News</a>
+              <a class="nav-link" href="#speakers">Guest Speakers</a>
             </li>
             <li class="nav-item mx-xl-4">
               <a class="nav-link" href="#">Sponsor</a>
@@ -63,8 +63,20 @@
       </div>
     </nav>
 
+    <header>
+      <div class="header">
+        <h2>"Hello Sharing World!"</h2>
+        <h1 class="h1">GHANAIAN FOOD<br>FESTIVAL<br>2023</h1>
+        <p class="festival-description text-break-lg">The Ghana Food Festival celebrates diverse cultural traditions and brings together folks interested in food, arts, and entertainment. The Ghana Food Festival (GFF) will come from Saturday, March 4 to Sunday, March 5, 2023, in Accra, Ghana.</p>
+        <p class="festival-date">2023.03.04(SAT) ~ 05(SUN)</p>
+        <p class="location">@ Greater Accra, West Africa Greater Accra, 00233</p>
+      </div>
+    </header>
+
+    </div>
+
     <div class="main-container">
-      <section class="programs">
+      <section class="programs" id="programs">
         <h2>Main Program</h2>
         <hr>
   
@@ -96,7 +108,7 @@
           </div>
         </div>
   
-        <div class="join-festival">
+        <div class="join-festival" id="join">
           <button type="button" class="join-btn">Join GFF Celebration 2023</button>
         </div>
   
@@ -105,24 +117,11 @@
         </div> 
       </section>
   
-      <section class="featured-speakers">
+      <section class="featured-speakers" id="speakers">
         <p class="featured-heading">Featured Speakers</p>
         <!-- Load speakers from javascript -->
       </section>
     </div>
-
-    <header>
-      <div class="header">
-        <h2>"Hello Sharing World!"</h2>
-        <h1 class="h1">GHANAIAN FOOD<br>FESTIVAL<br>2023</h1>
-        <p class="festival-description text-break-lg">The Ghana Food Festival celebrates diverse cultural traditions and brings together folks interested in food, arts, and entertainment. The Ghana Food Festival (GFF) will come from Saturday, March 4 to Sunday, March 5, 2023, in Accra, Ghana.</p>
-        <p class="festival-date">2023.03.04(SAT) ~ 05(SUN)</p>
-        <p class="location">@ Greater Accra, West Africa Greater Accra, 00233</p>
-      </div>
-    </header>
-  </div>
-  
-  </div>
 
   <footer>
     <div class="partners">
@@ -152,5 +151,6 @@
   </footer>
   
   <script src="script.js"></script>
+  <script src="speakers.js"></script>
 </body>
 </html>
