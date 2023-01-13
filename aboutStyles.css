@@ -1,0 +1,355 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "lato", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.header-wrapper {
+  width: 100%;
+  padding: 25px;
+  background-image: url("./images/background1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.not-used {
+  display: none;
+}
+
+.top-social {
+  display: none;
+}
+
+.top-social div {
+  display: flex;
+  padding-right: 20%;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.topmost-menu {
+  color: white;
+  cursor: pointer;
+}
+
+.campaign a {
+  color: #ec5242 !important;
+}
+
+nav .navbar-nav li a:hover {
+  color: #ec5242;
+}
+
+nav .navbar-nav li .active {
+  color: #ec5242 !important;
+}
+
+.navbar {
+  box-shadow: 0 0 0;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+}
+
+.campaign {
+  border: 4px solid #ec5242 !important;
+}
+
+.navbar-nav {
+  margin-left: 0;
+}
+
+.close-menu {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin: 10px 50px 10px auto;
+  cursor: pointer;
+}
+
+.display-menu-popup {
+  display: block;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10%;
+  padding-left: 20%;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 2;
+  background-color: #fff1f1;
+  z-index: 99;
+}
+
+header {
+  margin-top: 50px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 30px;
+  color: #ec5242;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ec5242;
+}
+
+.festival-description {
+  width: 100%;
+  padding: 20px;
+  background-color: #fefcff;
+  border: 1px solid #eee;
+}
+
+.contact {
+  text-align: center;
+}
+
+.email-contact {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 25px;
+}
+
+.section-hide {
+  display: block;
+}
+
+.section-header {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.section-header-desktop {
+  display: none;
+}
+
+.section-desc {
+  text-align: center;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-top: 30px;
+}
+
+.section-desc-desktop {
+  display: none;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  border: 3px solid #eaeaea;
+  margin-top: 50px;
+}
+
+.logo-container img {
+  width: 250px;
+  height: 200px;
+}
+
+.section-divider {
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.celebrations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.c-container {
+  width: 100%;
+  position: relative;
+}
+
+.celebs {
+  width: 100%;
+  height: 280px;
+  border: 3px solid #eaeaea;
+  margin-bottom: 25px;
+  z-index: 0;
+}
+
+.celeb-overlay {
+  background-color: #8f1204;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 280px;
+  text-align: center;
+}
+
+.celebration1 {
+  background-image: url("./images/celebs1.jpg");
+}
+
+.celebration2 {
+  background-image: url("./images/celebs2.jpg");
+}
+
+.celeb-overlay div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.festival-year {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.festival-location {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #414246;
+  width: 100%;
+  height: auto;
+}
+
+.partner-heading {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #989896;
+}
+
+.partner-names {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  padding: 20px;
+}
+
+.partner {
+  font-size: 30px;
+  color: #989896;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 10px;
+  column-gap: 15px;
+  background-color: #f2f2f2;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  column-gap: 40px;
+}
+
+.bottom-logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 14%;
+}
+
+.b-logo {
+  width: 70px;
+  height: 50px;
+}
+
+.permission {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 10px;
+  font-size: 15px;
+}
+
+.desktop-link {
+  display: none;
+}
+
+.permission div:first-child {
+  width: 70%;
+}
+
+.permission div:last-child {
+  width: 70%;
+}
