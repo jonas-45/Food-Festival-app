@@ -1,7 +1,7 @@
 const body = document.querySelector('body');
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.getElementById('navmenu');
-const navItems = document.querySelectorAll(".nav-item");
+const navItems = document.querySelectorAll('.nav-item');
 const homeMenuItem = document.querySelector('.home-menu-item');
 const aboutMenuItem = document.querySelector('.about-menu-item');
 
@@ -12,7 +12,7 @@ hamburger.addEventListener('click', () => {
   homeMenuItem.style.display = 'flex';
 });
 
-function closeMenu(){
+function closeMenu() {
   navMenu.className = '';
   navMenu.classList.add('collapse', 'navbar-collapse');
   body.style.overflowY = 'scroll';
@@ -25,5 +25,5 @@ document.querySelector('.close-menu').addEventListener('click', () => {
 });
 
 navItems.forEach((item) => {
-  item.addEventListener("click",closeMenu);
+  item.addEventListener('click', closeMenu);
 });
