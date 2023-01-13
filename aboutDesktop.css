@@ -1,0 +1,170 @@
+@media screen and (min-width: 768px) {
+  .header-wrapper {
+    background-image: none;
+    padding: 0;
+  }
+
+  .top-social {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar-brand {
+    display: flex;
+    margin-left: 15%;
+  }
+
+  .home-menu-item {
+    display: none;
+  }
+
+  .display-menu-popup {
+    display: flex;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    background-color: #fff;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 10%;
+  }
+
+  .navbar {
+    box-shadow: 0 3px 3px #999;
+  }
+
+  .festival-description {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #fefcff;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+  header {
+    margin-top: 0;
+  }
+
+  .header {
+    width: 100%;
+    height: 700px;
+    background-image: url("./images/background1.webp");
+  }
+
+  .header h2 {
+    font-size: 40px;
+    color: #ec5242;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 45px;
+    font-family: "COCOGOOSE", sans-serif;
+    color: #ec5242;
+    background-image: url("./images/fire-bg.jpg");
+    -webkit-background-clip: text;
+  }
+
+  .section-header {
+    display: none;
+  }
+
+  .section-header-desktop {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0.8;
+  }
+
+  .section-desc {
+    display: none;
+  }
+
+  .section-desc-desktop {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px 20%;
+  }
+
+  .logo-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 250px;
+    border: 3px solid #eaeaea;
+    margin: 50px 30%;
+  }
+
+  .logo-container img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .celebrations-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .c-container {
+    width: 80%;
+    position: relative;
+  }
+
+  .celebs {
+    width: 100%;
+    height: 250px;
+    border: 3px solid #eaeaea;
+    margin-bottom: 25px;
+    z-index: 0;
+  }
+
+  .celeb-overlay {
+    background-color: #8f1204;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .desktop-link {
+    display: block;
+  }
+
+  .permission div:last-child {
+    width: 80%;
+  }
+}
