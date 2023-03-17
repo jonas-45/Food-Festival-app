@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] https://jonas-45.github.io/Capstone1/
+- <a href="https://jonas-45.github.io/Food-Festival-app/">[Live Demo Link]</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
