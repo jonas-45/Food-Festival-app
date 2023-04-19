@@ -5,7 +5,7 @@
   <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>First Capstone Project</b></h3>
+  <h3><b>Ghana Food Festival</b></h3>
 
 </div>
 
@@ -34,9 +34,7 @@
 
 # 📖 [Capstone1] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**Capstone1** is a website for Ghana Food Festival celebrations. This sites shows what the festival is all about, the program line-up for the festival and the guest speakers who will be attending the festival. Please watch a <a href = "https://www.loom.com/share/eb3cf4c259fa4f7daf19dfd66066dc7f">video description</a> of the project for more information.
+**Ghana Food Festival** is a website for Ghana Food Festival celebrations. This sites shows what the festival is all about, the program line-up for the festival and the guest speakers who will be attending the festival. Please watch a <a href = "https://www.loom.com/share/eb3cf4c259fa4f7daf19dfd66066dc7f">video description</a> of the project for more information.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -80,7 +78,7 @@ You need an IDE of your choice and a browser to run it on.
 
 ### Setup
 
-Clone this repository to your desired folder: In order to run this project you need to clone from my repository or download the code form my github page and run it on any browser of your chosing:
+Clone this repository to your desired folder: In order to run this project you need to clone from my repository or download the code form my github page and run it on any browser of your chosing: Clone this repo using git clone https://github.com/jonas-45/Food-Festival-app.git
 
 ### Usage
 
@@ -119,7 +117,7 @@ You can deploy this project using github pages or on any web hosting server:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jonas-45/Capstone1/issues).
+Feel free to check the [issues page](https://github.com/jonas-45/Food-Festival-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
