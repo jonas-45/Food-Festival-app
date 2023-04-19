@@ -32,7 +32,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone1] <a name="about-project"></a>
+# 📖 [Ghana Food Festival] <a name="about-project"></a>
 
 **Ghana Food Festival** is a website for Ghana Food Festival celebrations. This sites shows what the festival is all about, the program line-up for the festival and the guest speakers who will be attending the festival. Please watch a <a href = "https://www.loom.com/share/eb3cf4c259fa4f7daf19dfd66066dc7f">video description</a> of the project for more information.
 
